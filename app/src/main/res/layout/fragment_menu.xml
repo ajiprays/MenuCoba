@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prayitno.aji.menucoba.fragment.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.ContentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container_item"
+        android:visibility="gone">
+
+    </android.support.v7.widget.ContentFrameLayout>
+    <RelativeLayout
+        android:id="@+id/relatif_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cafe Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cafe_name"/>
+        <TextView
+            android:layout_below="@+id/cafe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories :"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/text1"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/cafe_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/search"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/cafe_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_close"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/cafe_name"
+            android:hint="search item..."
+            android:background="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:background="@color/colorGrey"
+            android:layout_below="@+id/text1"
+            android:id="@+id/item_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="... Item Selected"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/recycler_view"
+            android:layout_below="@+id/item_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+</RelativeLayout>

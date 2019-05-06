@@ -1,0 +1,38 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_row_bill"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp">
+
+    <TextView
+        android:id="@+id/table_no"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="No"/>
+
+    <TextView
+        android:id="@+id/table_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Menu Name"/>
+
+    <TextView
+        android:id="@+id/table_price"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Price"/>
+
+    <TextView
+        android:id="@+id/table_quantity"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Quantity"/>
+
+    <TextView
+        android:id="@+id/table_total"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="total"/>
+
+</TableRow>

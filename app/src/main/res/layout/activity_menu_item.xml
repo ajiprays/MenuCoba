@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_menu_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prayitno.aji.menucoba.MenuItemActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/ic_back"
+        android:id="@+id/btn_back"/>
+
+    <TextView
+        android:id="@+id/menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/menu_name"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="8dp"
+        app:strokeColor="@color/colorAccent"
+        app:strokeWidth="2dp"
+        app:indicatorGravity="bottom" />
+
+    <TextView
+        android:id="@+id/menu_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/carouselView"
+        android:layout_above="@+id/menu_price"
+        android:text="@string/menu_desc"
+        android:textSize="17sp"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/colorGrey"
+        android:layout_above="@+id/btn_number"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_cart"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_add"/>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/btn_number"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btn_add"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="35dp"
+        app:initialNumber="1"
+        app:finalNumber="99"
+        app:textSize="15sp"
+        android:layout_alignParentEnd="true">
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <TextView
+        android:id="@+id/menu_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_above="@+id/btn_add"/>
+
+
+</RelativeLayout>

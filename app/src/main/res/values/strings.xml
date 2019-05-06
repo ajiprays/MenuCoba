@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MenuCoba</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="our_menu">Our Menu</string>
+    <string name="category_name">category_name</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_desc">Menu_desc</string>
+    <string name="menu_name">menu_name</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="rp">Rp. ......</string>
+</resources>

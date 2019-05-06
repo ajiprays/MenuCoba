@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930859926341",
+    "firebase_url": "https://menucoba.firebaseio.com",
+    "project_id": "menucoba",
+    "storage_bucket": "menucoba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930859926341:android:cdaef46765cd61b1",
+        "android_client_info": {
+          "package_name": "com.prayitno.aji.menucoba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930859926341-odnlnl02k5o66jigs7jlcm51trc9o4rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prayitno.aji.menucoba",
+            "certificate_hash": "7ec23f54a5ee365e30a04e4ceb49f81f9505eae5"
+          }
+        },
+        {
+          "client_id": "930859926341-pr5clabgv43pu2bcesdn804tqqh1d6pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJwcn57mLwtKiqtGl93iDBRff50qkQSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930859926341-pr5clabgv43pu2bcesdn804tqqh1d6pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
